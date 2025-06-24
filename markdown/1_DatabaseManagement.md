@@ -60,7 +60,7 @@
 **pgAdmin 4** – это **ведущий** графический инструмент управления с открытым исходным кодом для администрирования, разработки и управления СУБД PostgreSQL.
 
 <div align=center>
-<img src='./static/dbmanagement/postgre.png'>
+<img src='../static/dbmanagement/postgre.png'>
 </div>
 
 
@@ -71,7 +71,7 @@
 Для начала работы, запустим pgAdmin 4.
 
 <div align=center>
-<img src='./static/dbmanagement/start.png'>
+<img src='../static/dbmanagement/start.png'>
 </div>
 
 
@@ -79,7 +79,7 @@
 Сначала необходимо научиться создавать **базы данных**. Используя графический интерфейс, создадим базу данных, нажав правой кнопкой мыши (`ПКМ`) на раздел **«Базы данных»**, затем **«Создать»** и **«База данных…»**.
 
 <div align=center>
-<img src='./static/dbmanagement/create.png'>
+<img src='../static/dbmanagement/create.png'>
 </div>
 
 <br>
@@ -110,7 +110,7 @@
 - Поле **«Комментарии»** также оставим пустым (рисунок 4).
 
 <div align=center>
-<img src='./static/dbmanagement/name.png'>
+<img src='../static/dbmanagement/name.png'>
 </div>
 
 <br>
@@ -118,7 +118,7 @@
 > 📗 Справку по объектам интерфейса можно открыть, нажав на кнопки, расположенные в левом нижнем углу окна 
 
 <div align=center>
-<img src='./static/dbmanagement/questions.png'>
+<img src='../static/dbmanagement/questions.png'>
 </div>
 
 > ❗ **Изучите** вкладки «Определение», «Безопасность», «Параметры», «Дополнительно» и «SQL», используя справку.
@@ -126,7 +126,7 @@
 Их оставим без изменений и нажмем на кнопку «Сохранить». Как можно заметить, в окне объектов появилась база данных «TestDB» и все ее объекты.
 
 <div align=center>
-<img src='./static/dbmanagement/database.png'
+<img src='../static/dbmanagement/database.png'
      style='width:300px;'>
 </div>
 
@@ -179,7 +179,7 @@
 Для того, чтобы создать таблицу в базе данных, используя графический интерфейс, необходимо раскрыть вкладки **«Схемы»**, затем **«public»** и правой кнопкой мыши нажать на **«Таблицы»**. В списке выбрать **«Создать»**, **«Таблица…»**
 
 <div align=center>
-    <img src='./static/dbmanagement/table_create.png'
+    <img src='../static/dbmanagement/table_create.png'
          style='width:300px;'>
 </div>
 
@@ -187,7 +187,7 @@
 
 В первой вкладке присвоим название таблице **«TestTable»** 
 <div align=center>
-    <img src='./static/dbmanagement/table_name.png'>
+    <img src='../static/dbmanagement/table_name.png'>
 </div>
 
 <br>
@@ -195,7 +195,7 @@
 Для создания столбцов перейдем во вкладку **«Столбцы»**. В правой части окна нажмем на кнопку **«Add** row».
 
 <div align=center>
-    <img src='./static/dbmanagement/rows.png'>
+    <img src='../static/dbmanagement/rows.png'>
 </div>
 
 <br>
@@ -203,7 +203,7 @@
 Создайте 2 столбца **«id»** и **«Name»** с ограничениями. И нажмите **«Сохранить»**.
 
 <div align=center>
-    <img src='./static/dbmanagement/new_rows.png'>
+    <img src='../static/dbmanagement/new_rows.png'>
 </div>
 
 <br>
@@ -211,7 +211,7 @@
 Если все сделано верно, то таблица должна **отобразиться в списке**.
 
 <div align=center>
-    <img src='./static/dbmanagement/table_list.png'
+    <img src='../static/dbmanagement/table_list.png'
          style='width:400px'>
 </div>
 
@@ -224,7 +224,7 @@
 Создадим резервную копию базы данных **«TestDB»**. Для этого нажимаем на нее правой кнопкой мыши, **«Резервная копия…»**
 
 <div align=center>
-    <img src='./static/dbmanagement/copy.png'
+    <img src='../static/dbmanagement/copy.png'
          style='width:400px'>
 </div>
 
@@ -235,7 +235,7 @@
 Перед этим **изучите** содержимое остальных вкладок в открывшемся окне.
 
 <div align=center>
-    <img src='./static/dbmanagement/save.png'>
+    <img src='../static/dbmanagement/save.png'>
 </div>
 
 
@@ -245,12 +245,12 @@
 **Проверьте** наличие файла резервной копии базы данных в Вашей папке.
 
 <div align=center>
-    <img src='./static/dbmanagement/recovery.png'
+    <img src='../static/dbmanagement/recovery.png'
          style='width:500px'>
 </div>
 
 <div align=center>
-    <img src='./static/dbmanagement/copy_file.png'
+    <img src='../static/dbmanagement/copy_file.png'
          style='width:500px'>
 </div>
 
@@ -260,7 +260,7 @@
 Чтобы восстановить базу данных из данного файла необходимо нажать правой кнопкой мыши на базу данных (это может быть новая пустая база данных или старая, в зависимости от ситуации) и выбрать **«Восстановить…»**. В открывшемся окне в строке **«Имя файла»** выбираем ранее созданный файл и нажимаем **«Восстановить»**.
 
 <div align=center>
-    <img src='./static/dbmanagement/db_recovery.png'>
+    <img src='../static/dbmanagement/db_recovery.png'>
 </div>
 
 > ❗ После процесса восстановления должны появиться уведомления.
@@ -271,7 +271,7 @@
 Чтобы удалить созданную таблицу **«TestTable»**, нажмем на нее правой кнопкой мыши, затем **«Delete»**.
 
 <div align=center>
-    <img src='./static/dbmanagement/delete.png'
+    <img src='../static/dbmanagement/delete.png'
          style='width:400px'>
 </div>
 
